@@ -9,10 +9,9 @@ public class reversing_string {
         // your code goes here
         int x = arr.length;
         char[] arr2 = new char[x];
-        for (char str : arr) {
-            for (int i = (x - 1); i >= 0; i--) {
-                arr2[i] = str;
-            }
+        for (int i = 0; i < x; i++) {
+            arr2[x-1] = arr[i];
+            x -= 1;
         }
 
         System.out.println(arr2);
