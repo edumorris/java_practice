@@ -17,4 +17,14 @@ public class Vehicle {
     public void setColor(String c) {
         this.color = c;
     }
+
+    // Default constructor
+    Vehicle() {
+        this.color = "Red";
+    }
+
+    // Constructor taking in a parameter
+    Vehicle(String c) {
+        color = c;
+    }
 }
