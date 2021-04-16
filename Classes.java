@@ -1,4 +1,5 @@
 public class Classes {
+    /*
     public static void main(String[] args) {
         // Utilizes the Animal class/file
         Animal dog = new Animal();
@@ -10,6 +11,7 @@ public class Classes {
         /*
          * v1.color = "red"; This will change to make use of the setter method
          */
+        /*
         v1.setColor("Yellow");
         // This utilizes getter to print out a variable
         System.out.println(v1.getColor());
@@ -19,4 +21,11 @@ public class Classes {
         Vehicle v = new Vehicle("Blue");
         System.out.println(v.getColor());
     }
+    */
+
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.eat();
+    }
+    
 }
